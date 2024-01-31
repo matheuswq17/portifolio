@@ -61,3 +61,7 @@ header a{
     color: #fff;
     text-shadow: 0 5px 10px #0004;
 }
+.carousel .list .item .content .author{
+    font-weight: bold;
+    letter-spacing: 10px;
+}
