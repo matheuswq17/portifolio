@@ -74,3 +74,11 @@ header a{
 .carousel  .list .item .content .topic{
     color: #f1683a;
 }
+
+.carousel .list .item .content .buttons{
+    display: grid;
+    grid-template-columns:repeat(2, 130px);
+    grid-template-rows: 40px;
+    gap: 5px;
+    margin-top: 20px;
+}
