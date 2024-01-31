@@ -83,7 +83,7 @@ header a{
     margin-top: 20px;
 }
 
-.carousel .list .item .content buttons{
+.carousel .list .item .content button{
     border: none;
     background-color: #eee;
     letter-spacing: 3px;
@@ -91,3 +91,8 @@ header a{
     font-weight: 500;
 }
 
+.carousel .list .item .content button:nth-child(2){
+    background-color: transparent;
+    color: #eee;
+    border: 1pxc solid #eee;
+}
