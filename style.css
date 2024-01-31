@@ -71,3 +71,6 @@ header a{
     font-size: 5em;
     list-style: 1.3em;
 }
+.carousel  .list .item .content .topic{
+    color: #f1683a;
+}
