@@ -123,3 +123,6 @@ header a{
     left: 10px;
     right: 10px;
 }
+.thumbnail .item .content .title{
+    font-weight: bold;
+}
