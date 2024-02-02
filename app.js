@@ -10,4 +10,10 @@ nextDom.onclick = function(){
 function showSlider (typer){
     let itemSlider = docuemnt.querySelector('.carousel .list .item')
     let itemThumbnail = document.querySelectorAll('.carousel .thumbnail .item')
+
+    if(type === 'next'){
+        listItemDom.appendChild(itemSlider[0]);
+        thumbnailDom.appendChild(itemThumbnail[0]);
+        carouselDom.classList.add('next');
+    }
 }
