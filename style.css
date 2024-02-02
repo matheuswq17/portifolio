@@ -126,3 +126,14 @@ header a{
 .thumbnail .item .content .title{
     font-weight: bold;
 }
+/* arrow */
+.arrow{
+    position: absolute;
+    top: 80%;
+    right: 52;
+    width: 300px;
+    max-width: 30%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
