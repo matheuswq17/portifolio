@@ -96,3 +96,13 @@ header a{
     color: #eee;
     border: 1px solid #eee;
 }
+/* Thumbanail */
+.thumbnail{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    width: max-content;
+    z-index: 100;
+    display: flex;
+    gap: 20px;
+}
