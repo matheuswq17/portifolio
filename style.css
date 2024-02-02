@@ -166,3 +166,10 @@ header a{
     opacity(0);
     animation: showContent 0.5s 1s linear 1 forwards;
 }
+@keyframes showContent{
+    to{
+        opacity: 1;
+        filter:blur(0);
+        transform: translateY(0);        
+    }
+}
