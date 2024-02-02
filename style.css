@@ -205,3 +205,8 @@ header a{
         border-radius: 0;
     }
 }
+.carousel.next .thumbnail .item:nth-last-child(1){
+    width: 0;
+    overflow: hidden;
+    animation: showThumbnail .5s linear 1 forwards;
+}
