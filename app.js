@@ -7,6 +7,8 @@ let thumbnailDom = document.querySelector('.carousel .thumbanil');
 nextDom.onclick = function(){
     showSlider('next');
 }
+let timeRunning = 3000
+let runTimeOut;
 function showSlider (typer){
     let itemSlider = docuemnt.querySelector('.carousel .list .item')
     let itemThumbnail = document.querySelectorAll('.carousel .thumbnail .item')
@@ -16,4 +18,9 @@ function showSlider (typer){
         thumbnailDom.appendChild(itemThumbnail[0]);
         carouselDom.classList.add('next');
     }
+
+    clearTimeout(runTimeOut);
+    runTimeOut = stTimeout (() =>{
+        carouselDom.classList.remove('next');
+    }, timeRunning)
 }
