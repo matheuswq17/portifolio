@@ -210,3 +210,17 @@ header a{
     overflow: hidden;
     animation: showThumbnail .5s linear 1 forwards;
 }
+@keyframes showThumbnail {
+    to{
+        width: 150px;
+    }
+}
+.carousel.next .thumbnail{
+    transform:translateX(150px)
+    animation: transformThumbnail .5s linear 1 forwards;
+}
+@keyframes showThumbnail {
+    to{
+        width: 150px;
+    }
+}
