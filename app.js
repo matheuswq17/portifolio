@@ -7,6 +7,9 @@ let thumbnailDom = document.querySelector('.carousel .thumbanil');
 nextDom.onclick = function(){
     showSlider('next');
 }
+prevDom.onclick = function(){
+    showSlider('prev')
+}
 let timeRunning = 3000
 let runTimeOut;
 function showSlider (typer){
