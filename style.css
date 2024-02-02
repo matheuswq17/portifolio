@@ -153,3 +153,6 @@ header a{
     background-color: #eee;
     color: #555;
 }
+.carousel .list .item:nth-child(1){
+    z-index: 1;
+}
