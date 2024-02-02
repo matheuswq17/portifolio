@@ -127,7 +127,7 @@ header a{
     font-weight: bold;
 }
 /* arrow */
-.arrow{
+.arrows{
     position: absolute;
     top: 80%;
     right: 52;
@@ -137,7 +137,7 @@ header a{
     gap: 10px;
     align-items: center;
 }
-.arrow button{
+.arrows button{
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -148,4 +148,8 @@ header a{
     font-weight: bold;
     font-size: large;
     transition: .5s;
+}
+.arrows button:hover{
+    background-color: #eee;
+    color: #555;
 }
