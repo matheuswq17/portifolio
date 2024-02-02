@@ -106,3 +106,9 @@ header a{
     display: flex;
     gap: 20px;
 }
+.thumbnail .item{
+    width: 150px;
+    height: 220px;
+    flex-shrink: 0;
+    position: relative;
+}
