@@ -20,10 +20,16 @@ function showSlider (typer){
         listItemDom.appendChild(itemSlider[0]);
         thumbnailDom.appendChild(itemThumbnail[0]);
         carouselDom.classList.add('next');
+    }else{
+        let positionLastItem = itemSlider.lenght -1;
+        listItemDom.prepend(itemSlider[positionLastItem]);
+        thumbnailDom.prepend(itemThumbnail[positionLastItem])
+        carouselDom.classList.add('prev')
     }
 
     clearTimeout(runTimeOut);
     runTimeOut = stTimeout (() =>{
         carouselDom.classList.remove('next');
+        carouselDom.classList.remove('prev')
     }, timeRunning)
 }
